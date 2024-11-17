@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --entry: 0 0% 77.3%; 
+    --entry-background: 0 0% 11%;
+    --entry-foreground: 0 0% 77.3%;
+    --entry-accent: 0 0% 77.3%;
+
+    --plan-badge-background: 0 0% 77.3%;
+    --plan-badge-foreground: 0 0% 11%;
+ 
+    --background: 0 0% 95%; 
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 0 0% 17.3%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --userBubble: 0 0% 87.5%;
+    --botBubble: 0 0% 99.6%;
+
+
+    --BorderColor: 0 0% 72%;
+    --BackgroundColor: 0 0% 90%;
+    --InputBorder: 0 0% 70%;
+    --InputBG: 0 0% 99%;
+
+
+    --sectionBorder: 0 0% 80%;
+
+    --radius: 0.5rem;
+    --border-radius: 0.25rem;
+
+    --iconColorNormal: var(--foreground);
+    --folderIconColor: var(--foreground);
+
+    --noticeForeground: 50, 100%, 66%;
+    --noticeBackground: 59, 41%, 60%, 0.2;
+    
+  }
+
+  .dark {
+    --background: 0 0% 11%; 
+    --foreground: 0 0% 98%;
+    --card: 0 0% 5.5%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 94.1%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --userBubble: 0 0% 19.6%;
+    --botBubble: 0 0% 13.76%;
+
+
+
+    --BorderColor: 0 0% 20%;
+    --BackgroundColor: 0 0% 14%;
+    --InputBorder: 0 0% 25%;
+    --InputBG: 0 0% 9%;
+
+    --foreground: 0 0% 77.3%;
+
+    --sectionBorder: 0 0% 15%;
+
+
+    --radius: 0.5rem;
+    --border-radius: 0.25rem;
+
+    --iconColorNormal: var(--foreground);
+    --folderIconColor: var(--foreground);    
+
+    --noticeForeground: 59, 41%, 60%, 0.2;
+    --noticeBackground: 50, 100%, 66%;
+    
+  }
+}
+
+.custom-scrollbar {
+  // Always show scrollbar
+  overflow-y: auto;
+
+  // Styles for Webkit browsers like Chrome and Safari
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 8px; // You can adjust the width as needed
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(148, 140, 144, 0.8) // Adjust scrollbar color and opacity
+  }
+  &:not(:hover)::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+}
