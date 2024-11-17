@@ -8,7 +8,7 @@ export default function Component() {
     return (
         <div className="flex flex-col items-center justify-between min-h-screen bg-gradient-to-b from-blue-50 to-orange-50">
             <header className="w-full p-4 text-center">
-                <h1 className="text-3xl font-bold text-primary">ScanHIT Mobile App</h1>
+                <h1 className="text-3xl font-bold text-zinc-800">ScanHIT Mobile App</h1>
             </header>
 
             <main className="flex-grow w-full max-w-2xl p-6 mx-auto space-y-10">
@@ -27,7 +27,7 @@ export default function Component() {
                 </div>
 
                 <div className="space-y-6 text-center">
-                    <p className="text-lg text-primary">
+                    <p className="text-lg text-zinc-800">
             OpenHit is a Health IT Platform that provides a comprehensive
             solution for healthcare providers to manage their practice. ScanHIT
             is a companion mobile app that allows medical practitioners to
